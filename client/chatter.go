@@ -1,4 +1,4 @@
-package main
+package client
 
 import (
 	"bufio"
@@ -28,8 +28,8 @@ func main() {
 	}
 }
 
-func sendMessage([]byte) error {
-
+func sendMessage([]byte) (err error) {
+	return err
 }
 
 func formatInputByOS(b []byte) (a []byte) {
